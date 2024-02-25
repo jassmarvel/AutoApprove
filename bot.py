@@ -53,7 +53,7 @@ async def op(_, m :Message):
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/Approve-02-19", caption="**🇮🇳 ʜᴇʟʟᴏ {}!\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [ᴀᴅᴍɪɴ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛs]({}) ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟ.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\n__ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Ethical_Gamer __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/bca22d5b50b7ea8f6a1b6.jpg", caption="**🇮🇳 ʜᴇʟʟᴏ {}!\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [ᴀᴅᴍɪɴ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛs]({}) ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟ.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\n__ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Ethical_Gamer __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
